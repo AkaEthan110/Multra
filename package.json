@@ -1,6 +1,6 @@
 {
     "name": "Multra",
-    "description": "A Discord public bot called Multra!",
+    "description": "A public Discord bot called Multra!",
     "version": "0.0.0",
     "main": "bot.js",
     "scripts": {
