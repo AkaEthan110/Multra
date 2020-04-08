@@ -5,7 +5,7 @@ bot.on("ready", async ready => {
     console.log("Ready!")
 });
 
-client.on('guildMemberAdd', async member => {
+bot.on('guildMemberAdd', async member => {
     const loggingChannel = "697557759868272841";
     const secondsToCompleteCaptcha = "120"
 
