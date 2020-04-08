@@ -1,2 +1,2 @@
 # Multra
-Multra Discord bot!
+A public Discord bot!
