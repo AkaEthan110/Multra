@@ -6,7 +6,7 @@ bot.on("ready", async ready => {
 });
 
 bot.on('guildMemberAdd', async member => {
-    const loggingChannel = "697557759868272841";
+    const loggingChannel = bot.channels.get("697557759868272841");
     const secondsToCompleteCaptcha = "120"
 
     loggingChannel.send(`${member.tag} has joined the server! They must complete their captcha within ${secondsToCompleteCaptcha} seconds.`)
