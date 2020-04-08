@@ -1,0 +1,12 @@
+{
+    "name": "Multra",
+    "description": "A Discord public bot called Multra!",
+    "version": "0.0.0",
+    "main": "bot.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "dependencies": {
+        "discord.js": "^11.5.2"
+    }
+}
